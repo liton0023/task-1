@@ -71,6 +71,48 @@
   align-items: center;
   text-align: center;
 }
+.developer-section {
+  position: relative;
+  border: 2px solid white;
+  margin-top: 5rem;
+}
+.developer-section-corner {
+  background-color: rgb(185, 152, 216);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  border-top: 50px solid transparent;
+  border-right: 100px solid white;
+  border-left: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+}
+.development-header {
+  text-align: center;
+  background-color: rgb(184, 146, 220);
+  color: white;
+  width: 25%;
+  margin: auto;
+  border-radius: 3px;
+}
+.development-section {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  margin-top: 5rem;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.development-team {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 5rem;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
 
 @media only screen and (max-width: 600px) {
   .grapic {
@@ -87,6 +129,9 @@
   }
   .gap-line {
     width: 100%;
+  }
+  .management-header {
+    width: 75%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 992) {
