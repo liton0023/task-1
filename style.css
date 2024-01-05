@@ -44,7 +44,7 @@
   border-radius: 3px;
 }
 .management-item img {
-  width: 50%;
+  width: 30%;
 }
 .management-item h4 {
   margin-top: 16px;
@@ -56,6 +56,15 @@
 .management-section {
   display: flex;
   width: 50%;
+  margin: auto;
+  margin-top: 5rem;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.management-items {
+  display: flex;
+  width: 75%;
   margin: auto;
   margin-top: 5rem;
   flex-direction: row;
